@@ -68,8 +68,8 @@
 
 
 
-![](D:/Android/image/12.png)
+![](../image/12.png)
 
-![](D:/Android/image/13.png)
+![](../image/13.png)
 
-![](D:/Android/image/14.png)
+![](../image/14.png)
