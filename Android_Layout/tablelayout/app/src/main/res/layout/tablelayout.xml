@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:shrinkColumns="0"
+    >
+    <View android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorgreen"
+        ></View>
+    <TableRow>
+        <TextView
+            android:id="@+id/text"
+            android:text="@string/blank"
+            android:textColor="@color/colorGray" />
+        <TextView
+            android:id="@+id/text12"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:text="@string/open"
+            android:textColor="@color/colorGray" />
+        <TextView
+            android:id="@+id/text13"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:text="@string/ctrl_o"
+            android:textColor="@color/colorGray" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@id/text"
+            android:text="@string/blank"
+            android:textColor="@color/colorGray" />
+        <TextView
+            android:id="@+id/text22"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:text="@string/save"
+            android:textColor="@color/colorGray" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/ctrl_s"
+            android:textColor="@color/colorGray"
+            tools:ignore="DuplicateIds" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@id/text"
+            android:text="@string/blank"
+            android:textColor="@color/colorGray" />
+        <TextView
+            android:id="@+id/text32"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:text="@string/save_as"
+            android:textColor="@color/colorGray" />
+
+        <TextView
+            android:id="@id/text33"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/ctrl_shift_s"
+            android:textColor="@color/colorGray"
+            />
+    </TableRow>
+
+    <View android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorgreen"
+        ></View>
+
+    <TableRow>
+        <TextView
+            android:id="@id/text"
+            android:text="@string/x"
+            android:textColor="@color/colorGray" />
+        <TextView
+            android:id="@id/text41"
+            android:layout_weight="1"
+            android:text="@string/imports"
+            android:textColor="@color/colorGray" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@id/text"
+            android:text="@string/x"
+            android:textColor="@color/colorGray" />
+        <TextView
+            android:id="@+id/text52"
+            android:layout_weight="1"
+            android:text="@string/emport"
+            android:textColor="@color/colorGray" />
+
+        <TextView
+            android:id="@+id/text53"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/ctrl_e"
+            android:textColor="@color/colorGray"
+            />
+    </TableRow>
+    <View android:id="@id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorgreen"
+        />
+
+    <TableRow>
+        <TextView
+            android:id="@id/text"
+            android:text="@string/blank"
+            android:textColor="@color/colorGray" />
+        <TextView
+            android:id="@+id/text6"
+            android:layout_weight="1"
+            android:text="@string/quit"
+            android:textColor="@color/colorGray" />
+    </TableRow>
+</TableLayout>

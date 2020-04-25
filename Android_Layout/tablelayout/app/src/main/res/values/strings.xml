@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">tablelayout</string>
+
+    <string name="ctrl_o">Ctrl - O</string>
+    <string name="blank">" "</string>
+    <string name="open">opening</string>
+    <string name="save">Save...</string>
+    <string name="ctrl_s">Ctrl - S</string>
+    <string name="save_as">Save as...</string>
+    <string name="ctrl_shift_s">Ctrl - Shift - S</string>
+    <string name="x">×</string>
+    <string name="imports" >import</string>
+    <string name="emport">Emport ....</string>
+    <string name="ctrl_e">ctrl- E</string>
+    <string name="quit">quit</string>
+</resources>
