@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-### 选择的webview：
+### 选择webview：
 
 ![](./image/3.png)
 
