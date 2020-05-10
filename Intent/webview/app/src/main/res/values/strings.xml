@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">webview</string>
+    <string name="browse" />
+    <string name="inputUrl" />
+    <string name="input" />
+    <string name="btn_browse" />
+    <string name="hint_edit" />
+    <string name="web_url">URLS</string>
+    <string name="go">GO</string>
+</resources>
