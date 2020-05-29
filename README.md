@@ -6,3 +6,5 @@
 
 实验四：[Intent](https://github.com/cai-hong/Android/tree/master/Android_Intent)
 
+​	期中：[期中](https://github.com/cai-hong/Android/tree/master/期中)
+
