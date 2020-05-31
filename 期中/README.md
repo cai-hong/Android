@@ -156,13 +156,11 @@ private static final String[] PROJECTION = new String[] {
 public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate menu from XML resource
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.list_options_menu, menu);  // 添加：action bar搜索框
+        inflater.inflate(R.menu.list_options_menu, menu);  
         MenuItem searchItem = menu.findItem(R.id.action_search);
         SearchView mSearchView = (SearchView) searchItem.getActionView();
-        //设置是否显示搜索框展开时的提交按钮
-        mSearchView.setSubmitButtonEnabled(false);      //设置输入框提示语
-        mSearchView.setQueryHint("搜索");               //SearchView设置监听
-        /**SearchView设置监听**/                        //搜索框展开时后面叉叉按钮的点击事件
+        mSearchView.setSubmitButtonEnabled(false);     
+        mSearchView.setQueryHint("搜索");                                   
         mSearchView.setOnCloseListener(new SearchView.OnCloseListener() {
             @Override
             public boolean onClose() {
@@ -205,7 +203,7 @@ public boolean onCreateOptionsMenu(Menu menu) {
                         NotePad.Notes.DEFAULT_SORT_ORDER  
                         // Use the default sort order.
                 );
-                Log.e(TAG, "查询到条数 --> " + cursor.getCount());
+                Log.e(TAG, "查询 --> " + cursor.getCount());
 
 /*
  * The following two arrays create a "map" between columns in the cursor and view IDs
